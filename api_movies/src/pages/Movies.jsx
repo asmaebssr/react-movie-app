@@ -4,7 +4,6 @@ import image from "../images/NotFound.jpg";
 
 const Movies = () => {
 
-// const apiKey = 'd8aebd127a60112b2baff280d40e218e';
 const apiKey = import.meta.env.VITE_APP_TMDB_API_KEY;
 const [movies, setMovies] = useState([]);
 const [page, setPage] = useState(1);
